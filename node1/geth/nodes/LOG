@@ -1,0 +1,11 @@
+=============== Dec 5, 2021 (CST) ===============
+16:38:14.139998 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:38:14.153560 db@open opening
+16:38:14.154543 version@stat F·[] S·0B[] Sc·[]
+16:38:14.176474 db@janitor F·2 G·0
+16:38:14.176474 db@open done T·22.9144ms
+17:36:44.187379 memdb@flush N·35174 S·3MiB
+17:36:44.226148 memdb@flush created L0@3 N·35174 S·700KiB "loc..seq,v24":"version,v1"
+17:36:44.227152 version@stat F·[1] S·700KiB[700KiB] Sc·[0.25]
+17:36:44.228811 memdb@flush committed F·1 T·41.2981ms
+17:36:44.229683 journal@remove removed @1
