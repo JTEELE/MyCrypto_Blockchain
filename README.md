@@ -1,4 +1,4 @@
-# ZBank Blockchain Procedures]
+# ZBank Blockchain Procedures:
 ##### ***Objective: Create private test net and use local nodes to send transaction.***
 
 ## User Support#1: 
