@@ -7,7 +7,7 @@ Create new directory and two sub-directories for each node as seen below:
 #### Steps:
         A. ./geth account new --datadir node1
         B. ./geth account new --datadir node2
-        C.  COPY PUBLIC ADDRESS!
+        C.  Make sure to copy your public address
 
 ![bc](Screenshots/create_nodes.png)
 
