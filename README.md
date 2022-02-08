@@ -1,7 +1,16 @@
 # ZBank Blockchain Procedures:
-##### ***Objective: Create private test net and use local nodes to send transaction.***
+##### ***Objective: Create private test net and use local nodes to mine & send transactions.***
 
-## User Support#1: 
+#
+
+- [`web3.py`](https://github.com/ethereum/web3.py) Python Ethereum library
+
+
+```bash
+pip install -r requirements.txt
+```
+
+## Walkthrough support **A**: 
 Create new directory and two sub-directories for each node as seen below:
 
 #### Steps:
@@ -9,11 +18,11 @@ Create new directory and two sub-directories for each node as seen below:
         B. ./geth account new --datadir node2
         C.  Make sure to copy your public address
 
-![bc](Screenshots/create_nodes.png)
+![bc](Screenshots/create_nodes- [`web3.py`](https://github.com/ethereum/web3.py) Python Ethereum library.png)
 
 
 
->## User Support#2: Initialize both nodes:
+>## Walkthrough support **B**: Initialize both nodes:
         A. ./geth init zbankfintech.json node1
         B. ./geth init zbankfintech.json node2
         
@@ -21,9 +30,7 @@ Create new directory and two sub-directories for each node as seen below:
 
 
 
-
-
-## User Support#3: 
+## Walkthrough support **C**: 
 Below are the configured network settings:
 
         A. Network name is 'zbankfintech'
@@ -34,7 +41,7 @@ Below are the configured network settings:
 ![bc](Screenshots/network_config.png)
 
 
-## User Support#4: 
+## Walkthrough support **D**: 
 Run both nodes on your local machine:
 
 ####  **Reminder: Initalize node1, copy enode, initialize node2 with node1's enode. Use '--ipcdisable' for Windows**
@@ -45,7 +52,7 @@ Run both nodes on your local machine:
 ![bc](Screenshots/run_nodes.png)
 
 
-## User Support#5: 
+## Walkthrough support **E**: 
 Create custom network in MyCrypto, login using node1 keystore file, and send transaction to Node2's public address:
 
 ### Hints:
