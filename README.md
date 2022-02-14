@@ -1,5 +1,5 @@
 # Bank Blockchain Procedures:
-##### ***Objective: Create private test net and use local nodes to mine & send transactions.***
+##### ***Objective: These scripts serve as a walkthrough for creating a private test net and how to use local nodes to mine & send transactions on the Ethereum Blockchain using MyCrypto.***
 
 #
 
